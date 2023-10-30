@@ -8,6 +8,7 @@ namespace Bex\Monolog\Handler;
 
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Logger;
+use Monolog\Formatter\FormatterInterface;
 use Bex\Monolog\Formatter\BitrixFormatter;
 
 /**

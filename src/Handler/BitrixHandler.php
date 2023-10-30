@@ -38,7 +38,7 @@ class BitrixHandler extends AbstractProcessingHandler
     /**
      * {@inheritdoc}
      */
-    protected function write(array $record)
+    protected function write(array $record): void
     {
         \CEventLog::Log(
             $record['formatted']['level'],
